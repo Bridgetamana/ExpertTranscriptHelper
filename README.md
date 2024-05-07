@@ -1,10 +1,10 @@
-# 
+# Expert Transcript Helper
 
-Primer is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+Expert Transcript Helper is a website built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
 
 ## Getting started
 
-To get started with this template, first install the npm dependencies:
+To get started, first install the npm dependencies:
 
 ```bash
 npm install
@@ -33,5 +33,5 @@ To learn more about the technologies used in this site template, see the followi
 - [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
 - [Next.js](https://nextjs.org/docs) - the official Next.js documentation
 - [Headless UI](https://headlessui.dev) - the official Headless UI documentation
-# ProTranscriptHelper
+
 # ExpertTranscriptHelper
