@@ -11,14 +11,14 @@ const videos = [
   {
     title: 'Initial Consultation',
     description:
-      'Discuss academic goals and existing credits with our advisors to tailor your pathway.',
+      'Begin your journey with a comprehensive discussion about your academic goals and existing credits. Our expert advisors will help you create a personalized pathway tailored to your unique needs.',
     image: setupImage,
     runtime: { minutes: 16, seconds: 54 },
   },
   {
     title: 'Custom Plan Development',
     description:
-      'Receive a strategic plan that aligns your credits with your degree objectives.',
+      'Receive a strategic, customized plan that aligns your credits with your degree objectives, ensuring you stay on track to achieve your academic ambitions.',
     image: gridsImage,
     runtime: { minutes: 9, seconds: 12 },
   },
@@ -65,7 +65,7 @@ export function Screencasts() {
         How It Works
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-        A Step-by-Step Guide to Our Credit Transfer Assistance
+        Benefits of Our Expert Transcript Help
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
           Learn how to design your very first icons in a series of screencasts
