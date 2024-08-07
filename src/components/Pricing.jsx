@@ -11,7 +11,6 @@ const tiers = [
     name: 'Topaz Plan',
     id: 'tier-coursera',
     href: '#',
-    priceMonthly: '$500',
     description: 'The Coursera Transfer Credit Package.',
     features: [
       '60 Electives Credits',
@@ -26,7 +25,6 @@ const tiers = [
     name: 'Ruby Plan',
     id: 'tier-sophia',
     href: '#',
-    priceMonthly: '$500',
     description: 'The Sophia Learning Transfer Credit Package.',
     features: [
         '30 credits from coursera plus unlimited credits through sophia-saylor.com',
@@ -40,7 +38,6 @@ const tiers = [
     name: 'Diamond Plan',
     id: 'tier-comprehensive',
     href: '#',
-    priceMonthly: '$1000',
     description: 'The Comprehensive Transfer Credit Package (Coursera & Sophia Learning).',
     features: [
         '90 credits, including Electives, Main, and General Credits',
@@ -107,14 +104,14 @@ export function Pricing() {
                 <p className="mt-4 text-sm leading-6 text-gray-600">
                   {tier.description}
                 </p>
-                <p className="mt-6 flex items-baseline gap-x-1">
+                {/* <p className="mt-6 flex items-baseline gap-x-1">
                   <span className="text-4xl font-bold tracking-tight text-gray-900">
                     {tier.priceMonthly}
                   </span>
                   <span className="text-sm font-semibold leading-6 text-gray-600">
                     /month
                   </span>
-                </p>
+                </p> */}
                 <ul
                   role="list"
                   className="mt-8 space-y-3 text-sm leading-6 text-gray-600"
