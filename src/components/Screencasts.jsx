@@ -23,11 +23,24 @@ const videos = [
     runtime: { minutes: 9, seconds: 12 },
   },
   {
-    title: 'Application and Fee Waiver',
+    title: 'Scholarship Application Assistance ',
     description:
-      'Get help with applications and securing fee waivers for credit transfers.',
+      `If you don’t already have a scholarship at the University of the People, we provide expert guidance on how to secure one, helping you reduce your educational expenses.`,
+    image: gridsImage,
+    runtime: { minutes: 11, seconds: 12 },
+  },
+  {
+    title: '  Transfer Fee Waiver',
+    description:
+      'For University of the People students, we assist you in earning credits and provide guidance on how to get the $17 per course fee waived, saving you money.',
     image: strokesImage,
     runtime: { minutes: 23, seconds: 25 },
+  },
+  {
+    title: 'Professional Certificate',
+    description: 'Enhance your job applications with professional certificates for the exams taken after earning your academic credits with us. These certificates demonstrate your expertise and commitment.',
+    image: duotoneImage,
+    runtime: { minutes: 25, seconds: 44 },
   },
   {
     title: 'Ongoing Support',
@@ -76,7 +89,7 @@ export function Screencasts() {
       <Container size="lg" className="mt-16">
         <ol
           role="list"
-          className="grid grid-cols-1 gap-x-8 gap-y-10 [counter-reset:video] sm:grid-cols-2 lg:grid-cols-4"
+          className="grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-10 [counter-reset:video] sm:grid-cols-2 "
         >
           {videos.map((video) => (
             <li key={video.title} className="[counter-increment:video]">

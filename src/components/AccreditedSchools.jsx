@@ -2,7 +2,7 @@ import { Container } from '@/components/Container'
 import {
   Expandable,
   ExpandableButton,
-  ExpandableItems,
+  ExpandableItems, CompressButton
 } from '@/components/Expandable'
 import { SectionHeading } from '@/components/SectionHeading'
 
@@ -160,6 +160,7 @@ export function AccreditedSchools() {
             </ExpandableItems>
           </ol>
           <ExpandableButton>See more</ExpandableButton>
+          <CompressButton>See Less</CompressButton>
         </Expandable>
       </Container>
     </section>

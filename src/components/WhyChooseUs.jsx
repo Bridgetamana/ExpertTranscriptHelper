@@ -11,7 +11,7 @@ const resources = [
   {
     title: 'Expert Guidance',
     description:
-      'Our experienced advisors tailor your credit transfer plan, ensuring it aligns with your academic goals.',
+      'Our experienced advisors provide tailored credit transfer plans, ensuring they align perfectly with your academic goals.',
     image: function FigmaImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
@@ -23,7 +23,7 @@ const resources = [
   {
     title: 'Wide Network',
     description:
-      'Access to a vast network of universities accepting ACE accredited credits, maximizing your transfer options.',
+      'Gain access to a vast network of universities that accept ACE accredited credits, maximizing your transfer options and opportunities.',
     image: function VideoPlayerImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center">
@@ -44,13 +44,37 @@ const resources = [
     },
   },
   {
-    title: 'Streamlined Process',
+    title: 'Convenient and Flexible',
     description:
-      "We simplify the complexity of credit transfers, making your journey to academic acceleration smooth and straightforward.",
+      "We simplify the complexities of credit transfers, offering a convenient and flexible process that fits your schedule and needs.",
     image: function DiscordImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-[#6366F1]">
           <Image src={discordImage} alt="" unoptimized />
+        </div>
+      )
+    },
+  },
+  {
+    title: 'Time and Cost Efficient ',
+    description:
+      'Save time and money by accelerating your degree completion through our efficient credit transfer services.',
+    image: function FigmaImage() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
+          <Image src={figmaImage} alt="" unoptimized />
+        </div>
+      )
+    },
+  },
+  {
+    title: '24/7 Support ',
+    description:
+      'Receive round-the-clock support, ensuring you have the assistance you need whenever you need it.',
+    image: function FigmaImage() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
+          <Image src={figmaImage} alt="" unoptimized />
         </div>
       )
     },
