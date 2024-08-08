@@ -90,8 +90,8 @@ export default function Contact() {
                 </div>
                 <div className="flex gap-x-4">
                   <dt className="flex-none">
-                    <span className="sr-only">Email</span>
-                    <EnvelopeIcon
+                    <span className="sr-only">WhatsApp</span>
+                    <PhoneIcon
                       className="h-7 w-6 text-gray-400"
                       aria-hidden="true"
                     />
@@ -99,9 +99,9 @@ export default function Contact() {
                   <dd>
                     <a
                       className="hover:text-gray-900"
-                      href="mailto:info@experttranscripthelper.com"
+                      href="https://wa.me/16616750759"
                     >
-                      info@experttranscripthelper.com
+                      +1 (661) 675-0759
                     </a>
                   </dd>
                 </div>
