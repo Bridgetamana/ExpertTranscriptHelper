@@ -5,7 +5,7 @@ import Hero from '@/components/Hero'
 import { NavBar } from '@/components/NavBar'
 import { Pricing } from '@/components/Pricing'
 import { WhyChooseUs } from '@/components/WhyChooseUs'
-import { Screencasts } from '@/components/Screencasts'
+import { HowItWorks } from '@/components/HowItWorks'
 import { AccreditedSchools } from '@/components/AccreditedSchools'
 import Contact from '@/components/Contact'
 
@@ -16,7 +16,7 @@ export default function Home() {
       <NavBar />
       <Hero />
       <AccreditedSchools />
-      <Screencasts />
+      <HowItWorks />
       <WhyChooseUs />
       <Pricing />
       <Contact />
