@@ -1,8 +1,5 @@
 import {
-  BuildingOffice2Icon,
   ChatBubbleLeftEllipsisIcon,
-  EnvelopeIcon,
-  PhoneIcon,
 } from '@heroicons/react/24/outline'
 import { FaWhatsapp } from 'react-icons/fa'
 import { SectionHeading } from './SectionHeading'
