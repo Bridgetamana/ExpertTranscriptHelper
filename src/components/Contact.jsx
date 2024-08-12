@@ -94,6 +94,9 @@ export default function Contact() {
                     <span className="sr-only">Whatsapp</span>
                     <FaWhatsapp
                       className="h-6 w-6 text-gray-400"
+                    <span className="sr-only">WhatsApp</span>
+                    <PhoneIcon
+                      className="h-7 w-6 text-gray-400"
                       aria-hidden="true"
                     />
                   </dt>
@@ -102,7 +105,7 @@ export default function Contact() {
                       className="hover:text-gray-900"
                       href="https://wa.me/16616750759"
                     >
-                      +1 (661) 675-0759 
+                      +1 (661) 675-0759
                     </a>
                   </dd>
                 </div>
