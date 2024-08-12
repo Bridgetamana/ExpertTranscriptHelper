@@ -11,23 +11,36 @@ const videos = [
   {
     title: 'Initial Consultation',
     description:
-      'Discuss academic goals and existing credits with our advisors to tailor your pathway.',
+      'Begin your journey with a comprehensive discussion about your academic goals and existing credits. Our expert advisors will help you create a personalized pathway tailored to your unique needs.',
     image: setupImage,
     runtime: { minutes: 16, seconds: 54 },
   },
   {
     title: 'Custom Plan Development',
     description:
-      'Receive a strategic plan that aligns your credits with your degree objectives.',
+      'Receive a strategic, customized plan that aligns your credits with your degree objectives, ensuring you stay on track to achieve your academic ambitions.',
     image: gridsImage,
     runtime: { minutes: 9, seconds: 12 },
   },
   {
-    title: 'Application and Fee Waiver',
+    title: 'Scholarship Application Assistance ',
     description:
-      'Get help with applications and securing fee waivers for credit transfers.',
+      `If you don’t already have a scholarship at the University of the People, we provide expert guidance on how to secure one, helping you reduce your educational expenses.`,
+    image: gridsImage,
+    runtime: { minutes: 11, seconds: 12 },
+  },
+  {
+    title: '  Transfer Fee Waiver',
+    description:
+      'For University of the People students, we assist you in earning credits and provide guidance on how to get the $17 per course fee waived, saving you money.',
     image: strokesImage,
     runtime: { minutes: 23, seconds: 25 },
+  },
+  {
+    title: 'Professional Certificate',
+    description: 'Enhance your job applications with professional certificates for the exams taken after earning your academic credits with us. These certificates demonstrate your expertise and commitment.',
+    image: duotoneImage,
+    runtime: { minutes: 25, seconds: 44 },
   },
   {
     title: 'Ongoing Support',
@@ -65,7 +78,7 @@ export function Screencasts() {
         How It Works
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-        A Step-by-Step Guide to Our Credit Transfer Assistance
+        Benefits of Our Expert Transcript Help
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
           Learn how to design your very first icons in a series of screencasts
@@ -76,7 +89,7 @@ export function Screencasts() {
       <Container size="lg" className="mt-16">
         <ol
           role="list"
-          className="grid grid-cols-1 gap-x-8 gap-y-10 [counter-reset:video] sm:grid-cols-2 lg:grid-cols-4"
+          className="grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-10 [counter-reset:video] sm:grid-cols-2 "
         >
           {videos.map((video) => (
             <li key={video.title} className="[counter-increment:video]">

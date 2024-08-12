@@ -4,6 +4,7 @@ import {
   EnvelopeIcon,
   PhoneIcon,
 } from '@heroicons/react/24/outline'
+import { FaWhatsapp } from "react-icons/fa";
 import { SectionHeading } from './SectionHeading'
 import { Container } from './Container'
 
@@ -90,6 +91,9 @@ export default function Contact() {
                 </div>
                 <div className="flex gap-x-4">
                   <dt className="flex-none">
+                    <span className="sr-only">Whatsapp</span>
+                    <FaWhatsapp
+                      className="h-6 w-6 text-gray-400"
                     <span className="sr-only">WhatsApp</span>
                     <PhoneIcon
                       className="h-7 w-6 text-gray-400"
