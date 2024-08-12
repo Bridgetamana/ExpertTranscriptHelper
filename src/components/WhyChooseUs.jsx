@@ -12,27 +12,73 @@ const resources = [
     title: 'Expert Guidance',
     description:
       'Our experienced advisors provide tailored credit transfer plans, ensuring they align perfectly with your academic goals.',
+    image: function FigmaImage() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
+          <Image src={figmaImage} alt="" unoptimized />
+        </div>
+      )
+    },
   },
   {
     title: 'Wide Network',
     description:
       'Gain access to a vast network of universities that accept ACE accredited credits, maximizing your transfer options and opportunities.',
-     },
+    image: function VideoPlayerImage() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center">
+          <Image
+            className="absolute inset-0 h-full w-full object-cover"
+            src={abstractBackgroundImage}
+            alt=""
+            sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
+          />
+          <Image
+            className="relative"
+            src={videoPlayerImage}
+            alt=""
+            unoptimized
+          />
+        </div>
+      )
+    },
+  },
   {
     title: 'Convenient and Flexible',
     description:
       "We simplify the complexities of credit transfers, offering a convenient and flexible process that fits your schedule and needs.",
-   },
+    image: function DiscordImage() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center bg-[#6366F1]">
+          <Image src={discordImage} alt="" unoptimized />
+        </div>
+      )
+    },
+  },
   {
     title: 'Time and Cost Efficient ',
     description:
       'Save time and money by accelerating your degree completion through our efficient credit transfer services.',
-   },
+    image: function FigmaImage() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
+          <Image src={figmaImage} alt="" unoptimized />
+        </div>
+      )
+    },
+  },
   {
     title: '24/7 Support ',
     description:
       'Receive round-the-clock support, ensuring you have the assistance you need whenever you need it.',
+    image: function FigmaImage() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
+          <Image src={figmaImage} alt="" unoptimized />
+        </div>
+      )
     },
+  },
 ]
 
 export function WhyChooseUs() {
@@ -60,6 +106,9 @@ export function WhyChooseUs() {
               key={resource.title}
               className="grid auto-rows-min grid-cols-1 items-center gap-8 px-3 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1 xl:px-12"
             >
+              <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg sm:h-60 lg:h-40">
+                <resource.image />
+              </div>
               <div>
                 <h3 className="text-base font-medium tracking-tight text-slate-900">
                   {resource.title}

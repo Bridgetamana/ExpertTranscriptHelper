@@ -6,11 +6,11 @@ import { WhyChooseUs } from '@/components/WhyChooseUs'
 import { HowItWorks } from '@/components/HowItWorks'
 import { AccreditedSchools } from '@/components/AccreditedSchools'
 import Contact from '@/components/Contact'
+import YoutubeSection from '@/components/YoutubeSection'
 
 export default function Home() {
   return (
     <>
-     
       <NavBar />
       <Hero />
       <AccreditedSchools />
@@ -18,6 +18,7 @@ export default function Home() {
       <WhyChooseUs />
       <Pricing />
       <Contact />
+      <YoutubeSection />
       <Footer />
     </>
   )
