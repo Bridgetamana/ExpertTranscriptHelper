@@ -7,15 +7,15 @@ import {
   ExpandableButton,
   ExpandableItems,
 } from '@/components/Expandable'
-import avatarImage3 from '@/images/avatars/avatar-3.png'
-import avatarImage4 from '@/images/avatars/avatar-4.png'
-import avatarImage5 from '@/images/avatars/avatar-5.png'
-import avatarImage6 from '@/images/avatars/avatar-6.png'
-import avatarImage7 from '@/images/avatars/avatar-7.png'
-import avatarImage8 from '@/images/avatars/avatar-8.png'
-import avatarImage9 from '@/images/avatars/avatar-9.png'
-import avatarImage10 from '@/images/avatars/avatar-10.png'
-import avatarImage11 from '@/images/avatars/avatar-11.png'
+// import avatarImage3 from '@/images/avatars/avatar-3.png'
+// import avatarImage4 from '@/images/avatars/avatar-4.png'
+// import avatarImage5 from '@/images/avatars/avatar-5.png'
+// import avatarImage6 from '@/images/avatars/avatar-6.png'
+// import avatarImage7 from '@/images/avatars/avatar-7.png'
+// import avatarImage8 from '@/images/avatars/avatar-8.png'
+// import avatarImage9 from '@/images/avatars/avatar-9.png'
+// import avatarImage10 from '@/images/avatars/avatar-10.png'
+// import avatarImage11 from '@/images/avatars/avatar-11.png'
 
 const testimonials = [
   [
@@ -25,7 +25,7 @@ const testimonials = [
       author: {
         name: 'Antonio Littel',
         role: 'Frontend Developer',
-        image: avatarImage3,
+        // image: avatarImage3,
       },
     },
     {
@@ -34,7 +34,7 @@ const testimonials = [
       author: {
         name: 'Lynn Nolan',
         role: 'Growth Marketer',
-        image: avatarImage4,
+        // // image: avatarImage4,
       },
     },
     {
@@ -43,7 +43,7 @@ const testimonials = [
       author: {
         name: 'Krista Prosacco',
         role: 'Professional Designer',
-        image: avatarImage9,
+        // // image: avatarImage9,
       },
     },
   ],
@@ -54,7 +54,7 @@ const testimonials = [
       author: {
         name: 'Cameron Considine',
         role: 'Entrepreneur',
-        image: avatarImage7,
+        // // image: avatarImage7,
       },
     },
     {
@@ -63,7 +63,7 @@ const testimonials = [
       author: {
         name: 'Regina Wisoky',
         role: 'Design Student',
-        image: avatarImage11,
+        // // image: avatarImage11,
       },
     },
     {
@@ -72,7 +72,7 @@ const testimonials = [
       author: {
         name: 'Vernon Cummerata',
         role: 'UI Engineer',
-        image: avatarImage8,
+        // // image: avatarImage8,
       },
     },
   ],
@@ -83,7 +83,7 @@ const testimonials = [
       author: {
         name: 'Steven Hackett',
         role: 'Bootcamp Instructor',
-        image: avatarImage5,
+        // // image: avatarImage5,
       },
     },
     {
@@ -92,7 +92,7 @@ const testimonials = [
       author: {
         name: 'Carla Schoen',
         role: 'Startup Founder',
-        image: avatarImage10,
+        // // image: avatarImage10,
       },
     },
     {
@@ -101,7 +101,7 @@ const testimonials = [
       author: {
         name: 'Leah Kiehn',
         role: 'Creative Director',
-        image: avatarImage6,
+        // // image: avatarImage6,
       },
     },
   ],
@@ -117,13 +117,13 @@ function Testimonial({ author, children }) {
       </blockquote>
       <figcaption className="mt-6 flex items-center">
         <div className="overflow-hidden rounded-full bg-slate-50">
-          <Image
+          {/* <Image
             className="h-12 w-12 object-cover"
             src={author.image}
             alt=""
             width={48}
             height={48}
-          />
+          /> */}
         </div>
         <div className="ml-4">
           <div className="text-base font-medium leading-6 tracking-tight text-slate-900">

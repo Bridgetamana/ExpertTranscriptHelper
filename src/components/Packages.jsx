@@ -17,7 +17,7 @@ const tiers = [
       '7-day standard processing time',
       'Includes professional certificates',
       'Includes monthly coursera subscription fee',
-      'Waiver of transfer fee for UoP',
+      'Waiver of transfer fee for University of the People',
     ],
     mostPopular: false,
   },
@@ -30,7 +30,7 @@ const tiers = [
         '30 credits from coursera plus unlimited credits through sophia-saylor.com',
         'Starting at 7 days',
         'Includes monthly sophia learning subscription fee',
-        'Waiver of transfer fee for UoP',
+        'Waiver of transfer fee for University of the People',
     ],
     mostPopular: false,
   },
@@ -43,7 +43,7 @@ const tiers = [
         '90 credits, including Electives, Main, and General Credits',
         'Standard 14 days, may vary depending on credit requirements',
         'Includes professional certification',
-        'Waiver of transfer fee for UoP',
+        'Waiver of transfer fee for University of the People',
     ],
     mostPopular: false,
   },
@@ -55,16 +55,16 @@ function classNames(...classes) {
 }
 
 
-export function Pricing() {
+export function Packages() {
   return (
     <section
-      id="pricing"
-      aria-labelledby="pricing-title"
+      id="packages"
+      aria-labelledby="packages-title"
       className="scroll-mt-14 pb-8 pt-16 sm:scroll-mt-32 sm:pb-10 sm:pt-20 lg:pb-16 lg:pt-32"
     >
       <Container>
-        <SectionHeading number="4" id="pricing-title">
-          Pricing
+        <SectionHeading number="4" id="packages-title">
+          Packages
         </SectionHeading>
         <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
           Pick your package

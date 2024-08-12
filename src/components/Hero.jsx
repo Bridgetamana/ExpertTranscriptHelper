@@ -62,7 +62,7 @@ export default function Hero() {
                   Ready to Accelerate Your Degree Pathway?
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                  Get a head start on your academic journey with us --Fast-track
+                  Get a head start on your academic journey with us. Fast-track
                   your degree with ACE accredited credits.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
@@ -84,8 +84,7 @@ export default function Hero() {
                     Trusted by <b className="text-indigo-600">500+</b> students
                   </p>
                   <p className="mt-2 text-wrap text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                    Choose expert professionals specially trained to take each
-                    exam to help you get your degree.
+                    At the University of the People, we ensure academic success with our expert assistance.
                   </p>
                 </div>
               </div>

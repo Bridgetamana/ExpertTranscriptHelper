@@ -10,7 +10,7 @@ const sections = [
   { id: 'accredited-schools', title: 'Accredited Schools' },
   { id: 'how-it-works', title: 'How It Works' },
   { id: 'why-choose-us', title: 'Why Choose Us' },
-  { id: 'pricing', title: 'Pricing' },
+  { id: 'packages', title: 'Packages' },
   { id: 'contact', title: 'Contact' },
 ]
 

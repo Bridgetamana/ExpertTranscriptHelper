@@ -123,7 +123,7 @@ export function AccreditedSchools() {
           ACE Accredited Schools
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-        List of schools accepting credits from ACE
+        Discover Top School accepting ACE credits for Transfer  credit
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
           This list is updated regularly.

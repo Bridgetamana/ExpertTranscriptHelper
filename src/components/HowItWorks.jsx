@@ -19,7 +19,7 @@ const steps = [
   {
     title: '  Transfer Fee Waiver',
     description:
-      'For University of the People students, we assist you in earning credits and provide guidance on how to get the $17 per course fee waived, saving you money.',
+      'For University of the People students looking to transfer credits, we provide guidance on how to get the $17 per course fee waived, helping you save money.',
   },
   {
     title: 'Professional Certificate',
@@ -29,7 +29,7 @@ const steps = [
   {
     title: 'Ongoing Support',
     description:
-      'Benefit from continuous guidance throughout your academic journey at UoPeople.',
+      'Benefit from continuous guidance throughout your academic journey at University of the People.',
   },
 ]
 
