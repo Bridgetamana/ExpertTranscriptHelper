@@ -10,9 +10,10 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: 'ExpertTranscriptHelper',
+  title: 'ExpertTranscriptHelper | Earn UoPeople Credits',
   description:
-    'Get a head start on your academic journey with us ExpertTranscriptHelper',
+    'Let us take your Sophia Learning and Coursera courses for you. ExpertTranscriptHelper provides a streamlined process for busy adults.',
+    keywords: 'transcript help, UoPeople credits, online learning assistance',
 }
 
 export default function RootLayout({ children }) {
@@ -34,7 +35,9 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,500,700&display=swap"
         />
-      </head>
+        <title>{metadata.title}</title> 
+        <meta name="description" content={metadata.description} />
+        </head>
       <body className="flex min-h-full flex-col">{children}</body>
     </html>
   )

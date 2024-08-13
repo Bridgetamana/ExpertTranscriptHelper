@@ -122,9 +122,9 @@ export function AccreditedSchools() {
         <SectionHeading number="2" id="accredited-schools-title">
           ACE Accredited Schools
         </SectionHeading>
-        <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
+        <h2 className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
         Discover Top School accepting ACE credits for Transfer  credit
-        </p>
+        </h2>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
           This list is updated regularly.
         </p>
