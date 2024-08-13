@@ -10,9 +10,9 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: 'Everything Starts as a Square - Get lost in the world of icon design',
+  title: 'ExpertTranscriptHelper',
   description:
-    'A book and video course that teaches you how to design your own icons from scratch.',
+    'Get a head start on your academic journey with us ExpertTranscriptHelper',
 }
 
 export default function RootLayout({ children }) {

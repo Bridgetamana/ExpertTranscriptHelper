@@ -66,7 +66,7 @@ export function Packages() {
         <SectionHeading number="5" id="packages-title">
           Packages
         </SectionHeading>
-        <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
+        <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
           Pick your package
         </p>
         <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">
