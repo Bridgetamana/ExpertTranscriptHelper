@@ -7,12 +7,14 @@ import { HowItWorks } from '@/components/HowItWorks'
 import { AccreditedSchools } from '@/components/AccreditedSchools'
 import Contact from '@/components/Contact'
 import YoutubeSection from '@/components/YoutubeSection'
+import AboutUs from '@/components/AboutUs'
 
 export default function Home() {
   return (
     <>
       <NavBar />
       <Hero />
+      <AboutUs />
       <YoutubeSection />
       <AccreditedSchools />
       <HowItWorks />

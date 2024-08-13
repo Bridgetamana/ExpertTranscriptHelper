@@ -3,11 +3,11 @@ import Link from 'next/link'
 import { CheckIcon } from '@/components/CheckIcon'
 import { Container } from '@/components/Container'
 
-export function Introduction() {
+export default function AboutUs() {
   return (
     <section
-      id="introduction"
-      aria-label="Introduction"
+      id="about-us"
+      aria-label="about-us"
       className="pb-16 pt-20 sm:pb-20 md:pt-36 lg:py-32"
     >
       <Container className="text-lg tracking-tight text-slate-700">
