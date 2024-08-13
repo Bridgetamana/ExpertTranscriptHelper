@@ -26,6 +26,13 @@ export default function RootLayout({ children }) {
       )}
     >
       <head>
+        <title>{metadata.title}</title> 
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="description" content={metadata.description} />
+        <meta name="keywords" content={metadata.keywords} />
+        <meta property="og:url" content="https://expertTranscriptHelper.com" />
         <link
           rel="preconnect"
           href="https://cdn.fontshare.com"
@@ -35,8 +42,6 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,500,700&display=swap"
         />
-        <title>{metadata.title}</title> 
-        <meta name="description" content={metadata.description} />
         </head>
       <body className="flex min-h-full flex-col">{children}</body>
     </html>
