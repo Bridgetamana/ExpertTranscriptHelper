@@ -73,7 +73,7 @@ export default function Hero() {
                     Get started
                   </a>
                   <a
-                    href="#pricing"
+                    href="#packages"
                     className="text-sm font-semibold leading-6 text-gray-900"
                   >
                     Pick a package <span aria-hidden="true">→</span>
