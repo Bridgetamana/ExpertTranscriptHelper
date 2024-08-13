@@ -1,8 +1,9 @@
 import Link from 'next/link'
 
+import { SectionHeading } from '@/components/SectionHeading'
 import { CheckIcon } from '@/components/CheckIcon'
 import { Container } from '@/components/Container'
-
+  
 export default function AboutUs() {
   return (
     <section
@@ -11,22 +12,17 @@ export default function AboutUs() {
       className="pb-16 pt-20 sm:pb-20 md:pt-36 lg:py-32"
     >
       <Container className="text-lg tracking-tight text-slate-700">
-        <p className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          “Everything Starts as a Square” is a book and video course that
-          teaches you a simple method to designing icons that anyone can learn.
+      <SectionHeading number="1" id="about-us-title">
+          About Us
+        </SectionHeading>
+        <p className="mt-4">
+        At ExpertTranscriptHelper, we assist students in earning credits for their degrees at the University of the People or any Accredited University accepting ACE credits by helping them take courses on platforms like Coursera and Sophia Learning.
         </p>
         <p className="mt-4">
-          Before I learned how to design icons myself, I always imagined that
-          they were drawn by hand using the pen tool, some sort of fancy
-          graphics tablet, and hours and hours spent manually fine-tuning bezier
-          curves.
+        Our services include taking all required exams on your behalf, ensuring you meet your degree requirements efficiently.
         </p>
         <p className="mt-4">
-          But it turns out this isn’t how great icon designers work at all.
-        </p>
-        <p className="mt-4">
-          In “Everything Starts as a Square”, you’ll learn the systems experts
-          use to create pixel perfect icons, without relying on a steady hand.
+        Earn up to 60 elective credits from Coursera and 30 main and general education credits from Sophia Learning, all seamlessly integrated into your academic journey.
         </p>
         <ul role="list" className="mt-8 space-y-3">
           {[

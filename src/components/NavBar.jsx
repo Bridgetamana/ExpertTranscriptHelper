@@ -7,6 +7,7 @@ import Image from 'next/image'
 import logo from '@/images/Logo.png'
 
 const sections = [
+  { id: 'about-us', title: 'About Us' },
   { id: 'accredited-schools', title: 'Accredited Schools' },
   { id: 'how-it-works', title: 'How It Works' },
   { id: 'why-choose-us', title: 'Why Choose Us' },
