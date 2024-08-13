@@ -65,7 +65,12 @@ export default function Hero() {
                   Get a head start on your academic journey with us. Fast-track
                   your degree with ACE accredited credits.
                 </p>
-                <div className="mt-10 flex items-center gap-x-6">
+                <div className="mt-4">
+                  <p className="text-lg leading-8 text-gray-600">
+                    Trusted by <b className="text-indigo-600">500+</b> students across the world.
+                  </p>
+                </div>
+                <div className="mt-6 flex items-center gap-x-6">
                   <a
                     href="#contact"
                     className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
@@ -78,14 +83,6 @@ export default function Hero() {
                   >
                     Pick a package <span aria-hidden="true">→</span>
                   </a>
-                </div>
-                <div className="mt-6">
-                  <p className="text-lg leading-8 text-gray-600">
-                    Trusted by <b className="text-indigo-600">500+</b> students
-                  </p>
-                  <p className="mt-2 text-wrap text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                    At the University of the People, we ensure academic success with our expert assistance.
-                  </p>
                 </div>
               </div>
               <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
