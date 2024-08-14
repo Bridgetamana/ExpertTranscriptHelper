@@ -47,7 +47,7 @@ const resources = [
     title: 'Convenient and Flexible',
     description:
       "We simplify the complexities of credit transfers, offering a convenient and flexible process that fits your schedule and needs.",
-    image: function DiscordImage() {
+    image: function TimeImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center">
           <Image src={Time} alt="" unoptimized className='w-36'/>
@@ -59,7 +59,7 @@ const resources = [
     title: 'Time and Cost Efficient ',
     description:
       'Save time and money by accelerating your degree completion through our efficient credit transfer services.',
-    image: function FigmaImage() {
+    image: function WalletImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center">
           <Image src={Wallet} className='w-28' alt="" unoptimized />
@@ -71,7 +71,7 @@ const resources = [
     title: '24/7 Support ',
     description:
       'Receive round-the-clock support, ensuring you have the assistance you need whenever you need it.',
-    image: function FigmaImage() {
+    image: function SupportImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center">
           <Image src={Support} className="w-28" alt="" unoptimized />
