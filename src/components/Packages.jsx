@@ -63,15 +63,15 @@ export function Packages() {
       className="scroll-mt-14 pb-8 pt-16 sm:scroll-mt-32 sm:pb-10 sm:pt-20 lg:pb-16 lg:pt-32"
     >
       <Container>
-        <SectionHeading number="4" id="packages-title">
+        <SectionHeading number="5" id="packages-title">
           Packages
         </SectionHeading>
-        <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
+        <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
           Pick your package
         </p>
-        <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">
+        <h2 className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">
           Choose the plan that best suits your needs and budget. We offer a range of packages to help you accelerate your degree pathway.
-        </p>
+        </h2>
       </Container>
       <div className="isolate mx-auto mt-8 grid max-w-md grid-cols-1 gap-y-8 sm:mt-12 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:px-8">
           {tiers.map((tier, tierIdx) => (
