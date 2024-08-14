@@ -53,7 +53,7 @@ export default function Faq() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="mb-6 w-full border-b border-gray-200 pb-6"
+              className="mb-6 w-full border-b border-gray-200 pb-4"
             >
               <div
                 className="flex cursor-pointer items-center justify-between"
